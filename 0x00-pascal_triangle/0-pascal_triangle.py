@@ -5,5 +5,4 @@ def pascal_triangle(n):
     for i in range(n) :
         x = str(pow(11,i))
         totalList.append(list(x))
-        print(x)
     return totalList
