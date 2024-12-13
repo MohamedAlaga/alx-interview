@@ -39,7 +39,7 @@ def isWinner(x, nums):
     # Play each round of the game
     for i in nums:
         # If the sum of prime numbers in the set is even, Ben wins
-        if sum(a[0 : i + 1]) % 2 == 0:
+        if sum(a[0: i + 1]) % 2 == 0:
             ben += 1
         else:
             maria += 1
