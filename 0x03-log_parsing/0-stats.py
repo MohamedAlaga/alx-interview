@@ -42,4 +42,3 @@ if __name__ == "__main__":
         print_metrics(file_size_total, codes_count)
         raise
     print_metrics(file_size_total, codes_count)
-   
